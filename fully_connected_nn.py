@@ -44,9 +44,9 @@ def init_layers(nn_architecture, seed = 99):
 def single_layer_forward_propagation(A_prev, W_curr, b_curr, activation="relu"):
     Z_curr = np.dot(W_curr, A_prev) + b_curr
     
-    if activation is "relu":
+    if activation == "relu":
         activation_func = relu
-    elif activation is "sigmoid":
+    elif activation == "sigmoid":
         activation_func = sigmoid
     else:
         raise Exception('Non-supported activation function')
