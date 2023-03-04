@@ -4,7 +4,7 @@ This project is focused on implementing a robust, resource-efficient algorithm f
 
 <ins>**Citing this work**</ins>
 
-If you use this repository for academic research, you are highly encouraged (though not required) to cite the following paper:
+If you use this repository for academic research, you are highly encouraged to cite the following paper:
 
 @inproceedings{zakariyya2022robust,  <br />
   title={Robust, effective and resource efficient deep neural network for intrusion detection in IoT networks},  <br />
